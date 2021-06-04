@@ -6,4 +6,4 @@ Song.create(title: 'Ya Just Need 2 Believe in Yaself', artist: 'Folamour', artis
 
 Comment.create(song_id: 1, content: 'This rocks')
 Comment.create(song_id: 2, content: 'On repeat.')
-Comment.create(song_id: 2, content: 'Thats my jam.') 
+Comment.create(song_id: 2, content: 'Thats my jam.')
