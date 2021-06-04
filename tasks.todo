@@ -9,3 +9,9 @@ Comment / belongs to song
 - song_id - integer
 - comment - string
 
+backend:
+    ☐ add seed data
+    ☐ add controller actions
+
+questions/to review:
+    ☐ namespacing needing? api/v1
