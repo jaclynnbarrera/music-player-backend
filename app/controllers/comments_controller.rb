@@ -33,5 +33,5 @@ class CommentsController < ApplicationController
     def comment_params
         params.require(:comment).permit(:song_id, :content)
     end
-
+``
 end
