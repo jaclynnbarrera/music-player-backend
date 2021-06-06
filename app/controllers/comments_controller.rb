@@ -10,18 +10,10 @@ class CommentsController < ApplicationController
     def create
         @comment = @song.comments.build(comment_params)
         if @comment.save
-            render json: @comment
+            render json: @song
         else
             render json: {error: 'Comment did not save'}
         end
-    end
-
-    def update
-
-    end
-
-    def destroy
-
     end
 
     private
@@ -33,5 +25,4 @@ class CommentsController < ApplicationController
     def comment_params
         params.require(:comment).permit(:song_id, :content)
     end
-``
 end
