@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_03_222933) do
+ActiveRecord::Schema.define(version: 2021_06_27_021953) do
 
   create_table "comments", force: :cascade do |t|
     t.integer "song_id"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2021_06_03_222933) do
     t.string "video_link"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "categories"
   end
 
 end
