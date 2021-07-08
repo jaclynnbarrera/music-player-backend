@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  root 'welcome#index'
   resources :songs do
     resources :comments
   end
+
+  # root "welcome#index", welcome: "home"
+  root 'welcome#index'
 end
