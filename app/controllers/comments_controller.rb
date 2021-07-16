@@ -23,6 +23,6 @@ class CommentsController < ApplicationController
     end
 
     def comment_params
-        params.require(:comment).permit(:song_id, :content)
+        params.require(:comment).permit(:song_id, :content, :created_at)
     end
 end
