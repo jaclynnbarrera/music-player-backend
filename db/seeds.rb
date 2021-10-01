@@ -29,7 +29,7 @@ Song.create(title: 'Lumberjack', artist: 'Tyler The Creator', artist_about: 'Tyl
 
 
 
-Song.create(title: 'Burna Boy: NPR Music Tiny Desk Concert', artist: 'Burna Boy', artist_about: "Watch Burna Boy play 'Gbona', 'Wetin Man Go Do', 'Dangote' and 'Ye' at the Tiny Desk.", image_link: 'https://media.architecturaldigest.com/photos/613f942ad12eac1f56ce925a/16:9/w_2560%2Cc_limit/BURNA-SHOOT-FOR-AD2890.jpg', video_link: 'https://www.youtube.com/embed/xaaYgVRZTnE?autoplay=1', categories: ['world', 'afrobeats', 'dancehall'])
+Song.create(title: 'Burna Boy: NPR Music Tiny Desk Concert', artist: 'Burna Boy', artist_about: "Watch Burna Boy play 'Gbona', 'Wetin Man Go Do', 'Dangote' and 'Ye' at the Tiny Desk.", image_link: 'https://media.architecturaldigest.com/photos/613f942ad12eac1f56ce925a/16:9/w_2560%2Cc_limit/BURNA-SHOOT-FOR-AD2890.jpg', video_link: 'https://www.youtube.com/embed/xaaYgVRZTnE?autoplay=1', categories: ['dj-set','world', 'afrobeats', 'dancehall'])
 
 Song.create(title: 'Guest Mix: Peruvian Chicha/Cumbia with Cal Jader', artist: 'Cal Jader', artist_about: "Cal Jader is one of the musical activists behind London Latin cultural protagonists Movimientos and co-host of one of London's finest tropical / global bass parties Love Carnival. With his trademark blend of latin beats, carnival rhythms and fresh global sounds he is helping to soundtrack London's underground music scene with regular sets across the capital, as well as around the UK and Europe.", image_link: 'https://soundsandcolours.com/static/2017/12/dj-cal-jader-movimientos-best-of-2017.jpg', video_link: 'https://www.youtube.com/embed/6GwdWSx8v0c?autoplay=1', categories: ['dj-set', 'latin', 'cumbia'])
 
