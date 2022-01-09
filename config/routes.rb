@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     resources :comments
   end
 
-  # root "welcome#index", welcome: "home"
+  resources :genres, only: [:index]
+
   root 'welcome#index'
 end

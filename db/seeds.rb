@@ -26,9 +26,6 @@ Song.create(title: 'Love Reigns', artist: 'Mall Grab', artist_about: 'Jordon Ale
 Song.create(title: 'Encerrada', artist: 'Reyna Tropical', artist_about: 'Reyna Tropical is Fabi Reyna and Sumohair, they met for the first time in Nashville, Tennesse on behalf of Redbull Music Academys Bass Camp at Bonnaroo. They got into the studio the same day they met, recorded a track that would later inspire "Reyna Tropical".', image_link: 'https://www.lataco.com/wp-content/uploads/Cred_-Alejandro-Berber-2-scaled.jpg', video_link: 'https://www.youtube.com/embed/1jDOxt9vWMo?autoplay=1', categories: ['latin', 'indie','tropical'])
 Song.create(title: 'Lumberjack', artist: 'Tyler The Creator', artist_about: 'Tyler Gregory Okonma, better known as Tyler, The Creator (born March 6, 1991) is an American rapper, record producer, and music video director. He is the leader and co-founder of the since-disbanded Los Angeles collective Odd Future. Tyler is currently signed to Sony Music Entertainment, Columbia Records, and his own record label, Odd Future Records.', image_link: 'https://variety.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-17-at-11.29.55-AM.png', video_link: 'https://www.youtube.com/embed/R4Y7JIQlv20?autoplay=1', categories: ['hip-hop', 'rap'])
 
-
-
-
 Song.create(title: 'Burna Boy: NPR Music Tiny Desk Concert', artist: 'Burna Boy', artist_about: "Watch Burna Boy play 'Gbona', 'Wetin Man Go Do', 'Dangote' and 'Ye' at the Tiny Desk.", image_link: 'https://media.architecturaldigest.com/photos/613f942ad12eac1f56ce925a/16:9/w_2560%2Cc_limit/BURNA-SHOOT-FOR-AD2890.jpg', video_link: 'https://www.youtube.com/embed/xaaYgVRZTnE?autoplay=1', categories: ['dj-set','world', 'afrobeats', 'dancehall'])
 
 Song.create(title: 'Guest Mix: Peruvian Chicha/Cumbia with Cal Jader', artist: 'Cal Jader', artist_about: "Cal Jader is one of the musical activists behind London Latin cultural protagonists Movimientos and co-host of one of London's finest tropical / global bass parties Love Carnival. With his trademark blend of latin beats, carnival rhythms and fresh global sounds he is helping to soundtrack London's underground music scene with regular sets across the capital, as well as around the UK and Europe.", image_link: 'https://soundsandcolours.com/static/2017/12/dj-cal-jader-movimientos-best-of-2017.jpg', video_link: 'https://www.youtube.com/embed/6GwdWSx8v0c?autoplay=1', categories: ['dj-set', 'latin', 'cumbia'])
@@ -37,3 +34,4 @@ Song.create(title: 'Guest Mix: Peruvian Chicha/Cumbia with Cal Jader', artist: '
 Comment.create(song_id: 1, content: 'This rocks')
 Comment.create(song_id: 2, content: 'On repeat.')
 Comment.create(song_id: 3, content: 'Thats my jam.')
+
