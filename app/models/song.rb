@@ -1,4 +1,4 @@
 class Song < ApplicationRecord
-    serialize :categories, Array
-    has_many :comments, :genres
+    has_many :comments
+    has_many :genres
 end
